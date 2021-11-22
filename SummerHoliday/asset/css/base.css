@@ -1,0 +1,157 @@
+:root {
+    --blue-color: #0071a7; 
+    --btn-color: #14B9D5;
+    --text-color: #727475; 
+    --background-color:rgb(255, 255, 255);
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+/* Cầu của item
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    top: -30px;
+    left: 15px;
+ */
+
+.nicdark__section {
+    background-color: #fff;
+    width: 270px;
+    height: 50px;
+}
+
+.height20px {
+    height: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_row {
+    width: 1200px;
+    margin: auto;
+}
+
+.grid_column-4 {
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.grid_ful-width {
+    width: 100%;
+}
+
+
+.navigation__list-item {
+    font-size: 14px;
+    color: #555555;
+    padding: 12px 20px;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0px 2px 5px #f1f1f1;
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #14B9D5;
+    min-width: 136px;
+    max-width: 360px;
+    height: 34px;
+    padding: 5px 20px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.mr10px {
+    margin-right: 10px;
+}
+
+.mr20px {
+    margin-right: 20px;
+}
+
+
+/* LOGO */
+.fixed {
+    width: 65px;
+    height: 65px;
+    background-color: #555;
+    border-radius: 50%; 
+    position: absolute;
+    top: 86%;
+    right: 2.5%;
+    position: fixed;
+    z-index: 99999;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    top: 30%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.logo-buy {
+    font-size: 8px;
+    position: absolute;
+    background-color: #14B9D5;
+    color: #fff;
+    padding: 3px 5px;
+    top: 0;
+    right: 7%;
+}
+
+.logo_price {
+    background-color: #555;
+    color: #fff;
+    font-size: 8px;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+}
+
+.logo-img-both {
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    left: -25%;
+}
+
+.logo-img {
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    position: absolute;
+    top: 30%;
+    right: 33%;
+}
